@@ -27,6 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["animate.css", "npm:4.1.1"],\
           ["autoprefixer", "virtual:cc5affc4d29a1ba0e6c2543bd91b75a63849b31eae5d43d4c602b41228052bba729e242da03ccacdd0fe662c55ed94f9d1883abb311386ef399036ebc197c244#npm:10.4.20"],\
           ["bootstrap-icons", "npm:1.11.3"],\
           ["postcss", "npm:8.4.47"],\
@@ -652,6 +653,15 @@ const RAW_RUNTIME_STATE =
           ["buffer-more-ints", "npm:0.0.2"],\
           ["readable-stream", "npm:1.1.14"],\
           ["safe-buffer", "npm:5.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["animate.css", [\
+      ["npm:4.1.1", {\
+        "packageLocation": "../../home/node/.yarn/berry/cache/animate.css-npm-4.1.1-5c526dcd84-10c0.zip/node_modules/animate.css/",\
+        "packageDependencies": [\
+          ["animate.css", "npm:4.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4246,6 +4256,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["termoplast", "workspace:."],\
+          ["animate.css", "npm:4.1.1"],\
           ["autoprefixer", "virtual:cc5affc4d29a1ba0e6c2543bd91b75a63849b31eae5d43d4c602b41228052bba729e242da03ccacdd0fe662c55ed94f9d1883abb311386ef399036ebc197c244#npm:10.4.20"],\
           ["bootstrap-icons", "npm:1.11.3"],\
           ["postcss", "npm:8.4.47"],\
